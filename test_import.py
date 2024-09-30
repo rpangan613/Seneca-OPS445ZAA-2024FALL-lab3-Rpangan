@@ -3,6 +3,7 @@ import lab3a
 import lab3b
 import lab3c
 import lab3d
+import lab3e
 
 text = lab3a.return_text_value()
 print(text)
@@ -25,3 +26,9 @@ print(lab3c.operate(100, 5, 'power'))
 
 
 print(lab3d.free_space())
+
+
+print(lab3e.give_list())
+print(lab3e.give_first_item())
+print(lab3e.give_first_and_last_item())
+print(lab3e.give_second_and_third_item())
