@@ -4,6 +4,7 @@ import lab3b
 import lab3c
 import lab3d
 import lab3e
+from lab3f import *
 
 text = lab3a.return_text_value()
 print(text)
@@ -32,3 +33,13 @@ print(lab3e.give_list())
 print(lab3e.give_first_item())
 print(lab3e.give_first_and_last_item())
 print(lab3e.give_second_and_third_item())
+
+
+print(my_list)
+add_item_to_list(my_list)
+add_item_to_list(my_list)
+add_item_to_list(my_list)
+print(my_list)
+
+remove_items_from_list(my_list, [1, 5, 6])
+print(my_list)
